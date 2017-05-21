@@ -1,0 +1,7 @@
+The MultimodalFissionFramework uses the following libraries which are licensed under the Apache License Version 2.0:
+- Optaplanner
+- OWL API
+- MongoDB Driver
+
+It also uses the SimpleNLG library licensed under the Mozilla Public Licence 2.0
+
