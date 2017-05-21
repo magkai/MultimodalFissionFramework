@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<solver>
+    <!--<environmentMode>FAST_ASSERT</environmentMode>-->
+
+    <!-- Domain model configuration -->
+    <scanAnnotatedClasses>
+        <packageInclude>de.dfki.mmf.planner.deviceplanner</packageInclude>
+    </scanAnnotatedClasses>
+
+
+    <!-- Score configuration -->
+    <scoreDirectorFactory>
+        <scoreDefinitionType>HARD_SOFT</scoreDefinitionType>
+        <easyScoreCalculatorClass>de.dfki.mmf.planner.deviceplanner.score.DeviceRepresentationEasyScoreCalculator</easyScoreCalculatorClass>
+    </scoreDirectorFactory>
+
+    <!-- Optimization algorithms configuration -->
+    <constructionHeuristic>
+        <constructionHeuristicType>FIRST_FIT</constructionHeuristicType>
+    </constructionHeuristic>
+</solver>

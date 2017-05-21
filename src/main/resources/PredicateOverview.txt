@@ -1,0 +1,42 @@
+Lojban      English                       Structure
+vecnu       sell                          x1 [seller] sells/vends x2 [goods/service/commodity] to buyer x3 for amount/cost/expense x4
+terveu      buy                           x1 is a buyer purchasing goods x2 from seller x3 for amount/cost/expense x4
+dunda       give                          x1 [donor] gives/donates gift/present x2 to recipient/beneficiary x3 [without payment/exchange]
+tavla       talk                          x1 talks/speaks to x2 about subject x3 in language x4
+friti       offer                         x1 offers/proffers x2 [offering] to x3 with conditions x4
+rinsa       greet                         x1 (agent) greets/hails/[welcomes/says hello to]/responds to arrival of x2 in manner x3 (action)
+punji       put                           x1 (agent) puts/places/sets x2 on/at surface/locus x3
+velveu      cost                          x1 is the sales price of x2 to x3 from/at vendor x4
+nonseldia   be available without cost     x1 is available for free/without cost to x2 from provider x3
+bilga       must do                       x1 is bound/obliged to/has the duty to do/be x2 in/by standard/agreement x3
+kakne       be able to do                 x1 is able to do/be/capable of doing/being x2(event/state) under conditions x3 (event/state)
+curmi       allow                         x1 (agent) lets/permits/allows x2 (event) under conditions x3; x1 grants privilege x2
+barda       be big                        x1 is big/large in property/dimension(s) x2 (ka) as compared with standard/norm x3
+clani       be long                       x1 is long in dimension/direction x2 (default longest dimension) by measurement standard x3
+cmalu       be small                      x1 is small in property/dimension(s) x2 (ka) as compared with standard/norm x3
+melbi       be beautiful                  x1 is beautiful/pleasant to x2 in aspect x3 (ka) by aesthetic standard x4
+bramau      be bigger                     x1 is bigger than x2 in dimension x3 by margin x4
+clamau      be longer                     x1 is longer/taller than x2 in direction x3 by margin x4
+blanu       be blue                       x1 is blue [color adjective]
+xekri       be black                      x1 is black/extremely dark-colored [color adjective]
+blabi       be white                      x1 is white/very-light colored [color adjective].
+crino       be green                      x1 is green [color adjective]
+pelxu       be yellow                     x1 is yellow [color adjective]
+xunre       be red                        x1 is red [color adjective]
+zirpu       be violet                     x1 is violet/purple [color adjective]
+bunre       be brown                      x1 is brown/tan [color adjective]
+
+cmima       belong to                     x1 is a member/element of set x2; x1 belongs to group x2
+lamji       next to/besides               x1 is adjacent/beside/next to/in contact with x2 in property/sequence x3 in direction x4
+sidju       help/assist                   x1 helps/assists/aids object/person x2 do/achieve/maintain event/activity x3
+nitcu       need/require                  x1 needs/requires/is dependent on/[wants] necessity x2 for purpose/action/stage of process x3
+
+skari       be of color                   x1 is/appears to be of color/hue x2 as perceived/seen by x3 under conditions x4
+nelrai      prefer                        x1 likes/prefers x2 the most out of set x3
+zmanei      prefer over                   x1 prefers x2 over x3, because of property/quantity x4, by margin x5.
+jmina       combine                       x1 adds/combines x2 to/with x3, with result x4
+pilno       use                           x1 uses/employs x2 [tool, apparatus, machine, agent, acting entity, material] for purpose x3
+gapru       to be above                   x1 is directly/vertically above/upwards-from x2 in gravity/frame of reference x3
+viska       see                           x1 sees/views/perceives visually x2 under conditions x3
+jarco       show                          x1 (agent) shows/exhibits/displays/[reveals]/demonstrates x2 (property) to audience x3
+

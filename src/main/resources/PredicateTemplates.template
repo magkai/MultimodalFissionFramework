@@ -1,0 +1,150 @@
+vecnu($x1, $x2, $x3, $x4) :=
+(ENG): {$x1} {sell} {$x2} {to $x3} {for $x4}
+(DE): {$x1} {verkaufen} {$x2} {an $x3} {fuer $x4}
+(ENG_SIMPLENLG): {subject/WHO_SUBJECT: $x1} {verb: sell} {directObject/WHAT_OBJECT: $x2} {indirectObject: $x3} {complement: for $x4}
+
+terveu($x1, $x2, $x3, $x4) :=
+(ENG): {$x1} {buy} {$x2} {from $x3} {for $x4}
+(DE): {$x1} {kaufen} {$x2} {von $x3} {fuer $x4}
+(ENG_SIMPLENLG): {subject/WHO_SUBJECT: $x1} {verb: buy} {directObject/WHAT_OBJECT: $x2} {indirectObject: from $x3} {complement: for $x4}
+
+dunda($x1, $x2, $x3) :=
+(ENG): {$x1} {give} {$x2} {to $x3}
+(DE): {$x1} {schenken} {$x2} {an $x3}
+(ENG_SIMPLENLG): {subject/WHO_SUBJECT: $x1} {verb: give} {directObject/WHAT_OBJECT: $x2} {indirectObject: $x3}
+
+tavla($x1, $x2, $x3, $x4) :=
+(ENG): {$x1} {talk} {to $x2} {about $x3} {in $x4}
+(DE): {$x1} {reDEn} {mit $x2} {ueber $x3} {in $x4}
+(ENG_SIMPLENLG): {subject/WHO_SUBJECT: $x1} {verb: talk} {indirectObject: to $x2} {complement/WHAT_OBJECT: about $x3} {complement: in $x4}
+
+friti($x1, $x2, $x3, $x4) :=
+(ENG): {$x1} {offer} {$x2} {$x3} {$x4}
+(DE): {$x1} {anbieten} {$x2} {$x3} {$x4}
+(ENG_SIMPLENLG): {subject/WHO_SUBJECT: $x1} {verb: offer} {directObject/WHAT_OBJECT: $x2} {indirectObject: $x3} {complement: for $x4}
+
+rinsa($x1, $x2, $x3) :=
+(ENG): {$x1} {greet} {$x2} {$x3}
+(DE): {$x1} {begruessen} {$x2} {$x3}
+(ENG_SIMPLENLG): {subject/WHO_SUBJECT: $x1} {verb: greet} {directObject/WHO_OBJECT: $x2} {complement/HOW: $x3}
+
+punji($x1, $x2, $x3) :=
+(ENG): {$x1} {put} {$x2} {$x3}
+(DE): {$x1} {platzieren} {$x2} {$x3}
+(ENG_SIMPLENLG): {subject/WHO_SUBJECT: $x1} {verb: put} {directObject/WHAT_OBJECT: $x2} {complement: $x3}
+
+velveu($x1, $x2, $x3, $x4) :=
+(ENG): {$x2} {cost} {$x1} {to $x3} {from $x4}
+(DE): {$x2} {kosten} {$x1} {fuer $x3} {bei $x4}
+(ENG_SIMPLENLG): {directObject: $x1} {verb: cost} {subject/WHAT_SUBJECT: $x2} {complement: to $x3} {complement: from $x4}
+
+skari($x1, $x2, $x3, $x4) :=
+(ENG): {$x1} {have} {color $x2} {seen by $x3} {under conditions $x4}
+(DE): {$x1} {haben} {Farbe $x2} {gesehen von $x3} {unter Bedingung $x4}
+(ENG_SIMPLENLG): {subject/WHAT_SUBJECT: $x1} {verb: have} {directObject/WHAT_OBJECT: color $x2} {complement: seen by $x3} {complement: under conditions $x4}
+
+nelrai($x1, $x2, $x3) :=
+(ENG): {$x1} {prefer} {$x2} {the most out of $x3}
+(DE): {$x1} {bevorzugen} {$x2} {am Meisten von $x3}
+(ENG_SIMPLENLG): {subject/WHO_SUBJECT: $x1} {verb: prefer} {directObject/WHAT_OBJECT: $x2} {complement: the most out of $x3}
+
+bramau($x1, $x2, $x3, $x4) :=
+(ENG): {$x1} {be bigger} {than $x2} {in dimension $x3} {by margin $x4}
+(DE): {$x1} {groesser sein} {als $x2} {in Ausmass $x3} {in Begrenzung $x4}
+(ENG_SIMPLENLG): {subject/WHAT_SUBJECT: $x1} {verb: be bigger} {directObject/WHAT_OBJECT: than $x2} {complement: in dimension $x3} {complement: by margin $x4}
+
+pilno($x1, $x2, $x3) :=
+(ENG): {$x1} {use} {$x2} {$x3}
+(DE): {$x1} {benutzen} {$x2} {$x3}
+(ENG_SIMPLENLG): {subject/WHO_SUBJECT: $x1} {verb: use} {directObject/WHAT_OBJECT: $x2} {complement: $x3}
+
+lamji($x1, $x2, $x3, $x4) :=
+(ENG): {$x1} {be next to} {$x2} {in $x3} {in direction $x4}
+(DE): {$x1} {neben sein} {$x2}  {in $x3} {in Richtung $x4}
+(ENG_SIMPLENLG): {subject/WHAT_SUBJECT: $x1} {verb: be next to} {directObject/WHAT_OBJECT: $x2} {complement: in $x3} {complement: in direction $x4}
+
+gapru($x1, $x2, $x3) :=
+(ENG): {$x1} {be above} {$x2} {from $x3 point of view}
+(DE): {$x1} {ueber sein} {$x2} {aus Sicht von $x3}
+(ENG_SIMPLENLG): {subject/WHAT_SUBJECT: $x1} {verb: be above} {directObject/WHAT_OBJECT: $x2} {complement: from $x3 point of view}
+
+jmina($x1, $x2, $x3, $x4) :=
+(ENG): {$x1} {combine} {$x2} {with $x3} {to $x4}
+(DE): {$x1} {kombinieren} {$x2} {mit $x3} {zu $x4}
+(ENG_SIMPLENLG): {subject/WHO_SUBJECT: $x1} {verb: combine} {directObject/WHAT_OBJECT: $x2} {indirectObject: with $x3} {complement: to $x4}
+
+viska($x1, $x2, $x3) :=
+(ENG): {$x1} {see} {$x2} {$x3}
+(DE): {$x1} {sehen} {$x2} {$x3}
+(ENG_SIMPLENLG): {subject/WHO_SUBJECT: $x1} {verb: see} {directObject/WHAT_OBJECT: $x2} {complement: $x3}
+
+nitcu($x1, $x2, $x3) :=
+(ENG): {$x1} {need} {$x2} {for $x3}
+(DE): {$x1} {brauchen} {$x2} {fuer $x3}
+(ENG_SIMPLENLG): {subject/WHO_SUBJECT: $x1} {verb: need} {directObject/WHAT_OBJECT: $x2} {complement: for $x3}
+
+cmima($x1, $x2) :=
+(ENG): {$x1} {belong to} {$x2}
+(DE): {$x1} {gehoert zu} {$x2}
+(ENG_SIMPLENLG): {subject/WHAT_SUBJECT: $x1} {verb: belong to} {directObject/WHAT_OBJECT: $x2}
+
+sidju($x1, $x2, $x3) :=
+(ENG): {$x1} {help} {$x2} {$x3}
+(DE): {$x1} {helfen} {$x2} {$x3}
+(ENG_SIMPLENLG): {subject/WHAT_SUBJECT: $x1} {verb: help} {indirectObject: $x2} {complement: $x3}
+
+jarco($x1, $x2, $x3) :=
+(ENG): {$x1} {show} {$x2} {$x3}
+(DE): {$x1} {zeigen} {$x2} {$x3}
+(ENG_SIMPLENLG): {subject/WHO_SUBJECT: $x1} {verb: show} {directObject/WHAT_OBJECT: $x2} {indirectObject: $x3}
+
+nonseldia($x1, $x2, $x3) :=
+(ENG): {$x1} {be available} {to $x2} {$x3}
+(DE): {$x1} {verfuegbar sein} {fuer $x2} {$x3}
+(ENG_SIMPLENLG): {subject/WHAT_SUBJECT: $x1} {verb: be available} {directObject: to $x2} {complement: $x3}
+
+zmanei($x1, $x2, $x3, $x4, $x5) :=
+(ENG): {$x1} {prefer} {$x2} {over $x3} {because of $x4} {by $x5}
+(DE): {$x1} {vorziehen} {$x2} {vor $x3} {wegen $x4} {um $x5}
+(ENG_SIMPLENLG): {subject/WHO_SUBJECT: $x1} {verb: prefer} {directObject/WHAT_OBJECT: $x2} {complement: over $x3} {complement: because of $x4} {complement: by $x5}
+
+
+coi() :=
+(ENG): {hello}
+(DE): {Hallo}
+(ENG_SIMPLENLG): {NO_NLG: hello}
+
+fii() :=
+(ENG): {welcome}
+(DE): {Willkommen}
+(ENG_SIMPLENLG): {NO_NLG: welcome}
+
+coo() :=
+(ENG): {Goodbye}
+(DE): {Auf Wiedersehen}
+(ENG_SIMPLENLG): {NO_NLG: Goodbye}
+
+goi() :=
+(ENG): {yes}
+(DE): {ja}
+(ENG_SIMPLENLG): {NO_NLG: yes}
+
+na_goi() :=
+(ENG): {no}
+(DE): {nein}
+(ENG_SIMPLENLG): {NO_NLG: no}
+
+peu_do() :=
+(ENG): {please}
+(DE): {bitte}
+(ENG_SIMPLENLG): {NO_NLG: please}
+
+kie_do() :=
+(ENG): {thank you}
+(DE): {danke}
+(ENG_SIMPLENLG): {NO_NLG: thank you}
+
+uu() :=
+(ENG): {sorry}
+(DE): {Entschuldigung}
+(ENG_SIMPLENLG): {NO_NLG: sorry}

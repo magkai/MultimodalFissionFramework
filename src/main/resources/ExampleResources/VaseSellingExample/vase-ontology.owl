@@ -1,0 +1,966 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/magdalena/ontologies/2016/vase-ontology.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/magdalena/ontologies/2016/vase-ontology.owl">
+    <Prefix name="" IRI="http://www.semanticweb.org/magdalena/ontologies/2016/vase-ontology.owl"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <NamedIndividual IRI="#BottomLeft"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasIllustrationOf"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasType"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BottomRight"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Clay"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Image1"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasYPosition"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vase5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Medium"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vase1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VaseDescriptor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasVaseDescriptor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Small"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#User"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#User2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UpperRight"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vase4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Image2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UpperMiddle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ImageSize"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasColor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Robot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VaseOrigin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Blue"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isInvisible"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ceramic"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasZPosition"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bavaria"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Japan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#User1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vase"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Big"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasAbsolutePosition"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vase3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Red"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Robot1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Image"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasPrice"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasName"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasIllustrationOf"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Plastic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UpperLeft"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Yellow"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasResourceName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasXPosition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VaseApproximatePosition"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasImageSize"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasPreferredModality"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vase2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VaseApproximateSize"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VaseMaterial"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Glass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VaseColor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasOrigin"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasApproximatePosition"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMaterial"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasApproximateSize"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#China"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#ImageSize"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#Big"/>
+            <NamedIndividual IRI="#Medium"/>
+            <NamedIndividual IRI="#Small"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#VaseApproximateSize"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#Big"/>
+            <NamedIndividual IRI="#Medium"/>
+            <NamedIndividual IRI="#Small"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#VaseColor"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#Blue"/>
+            <NamedIndividual IRI="#Red"/>
+            <NamedIndividual IRI="#Yellow"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#VaseMaterial"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#Ceramic"/>
+            <NamedIndividual IRI="#Plastic"/>
+            <NamedIndividual IRI="#Clay"/>
+            <NamedIndividual IRI="#Glass"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#ImageSize"/>
+        <Class IRI="#Image"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Robot"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasXPosition"/>
+            <Datatype abbreviatedIRI="xsd:double"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Robot"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasYPosition"/>
+            <Datatype abbreviatedIRI="xsd:double"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Robot"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasZPosition"/>
+            <Datatype abbreviatedIRI="xsd:double"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#User"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasXPosition"/>
+            <Datatype abbreviatedIRI="xsd:double"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#User"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasYPosition"/>
+            <Datatype abbreviatedIRI="xsd:double"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#User"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasZPosition"/>
+            <Datatype abbreviatedIRI="xsd:double"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vase"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasColor"/>
+            <Class abbreviatedIRI="owl:Thing"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vase"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasMaterial"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vase"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasOrigin"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vase"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasPrice"/>
+            <Datatype abbreviatedIRI="xsd:double"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vase"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasXPosition"/>
+            <Datatype abbreviatedIRI="xsd:double"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vase"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasYPosition"/>
+            <Datatype abbreviatedIRI="xsd:double"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vase"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasZPosition"/>
+            <Datatype abbreviatedIRI="xsd:double"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VaseApproximatePosition"/>
+        <Class IRI="#VaseDescriptor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VaseApproximateSize"/>
+        <Class IRI="#VaseDescriptor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VaseColor"/>
+        <Class IRI="#VaseDescriptor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VaseMaterial"/>
+        <Class IRI="#VaseDescriptor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VaseOrigin"/>
+        <Class IRI="#VaseDescriptor"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#VaseOrigin"/>
+        <NamedIndividual IRI="#Bavaria"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ImageSize"/>
+        <NamedIndividual IRI="#Big"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#VaseApproximateSize"/>
+        <NamedIndividual IRI="#Big"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#VaseColor"/>
+        <NamedIndividual IRI="#Blue"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#VaseApproximatePosition"/>
+        <NamedIndividual IRI="#BottomLeft"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#VaseApproximatePosition"/>
+        <NamedIndividual IRI="#BottomRight"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#VaseMaterial"/>
+        <NamedIndividual IRI="#Ceramic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#VaseOrigin"/>
+        <NamedIndividual IRI="#China"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#VaseMaterial"/>
+        <NamedIndividual IRI="#Clay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#VaseMaterial"/>
+        <NamedIndividual IRI="#Glass"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Image"/>
+        <NamedIndividual IRI="#Image1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Image"/>
+        <NamedIndividual IRI="#Image2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#VaseOrigin"/>
+        <NamedIndividual IRI="#Japan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ImageSize"/>
+        <NamedIndividual IRI="#Medium"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#VaseApproximateSize"/>
+        <NamedIndividual IRI="#Medium"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#VaseMaterial"/>
+        <NamedIndividual IRI="#Plastic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#VaseColor"/>
+        <NamedIndividual IRI="#Red"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Robot"/>
+        <NamedIndividual IRI="#Robot1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ImageSize"/>
+        <NamedIndividual IRI="#Small"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#VaseApproximateSize"/>
+        <NamedIndividual IRI="#Small"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#VaseApproximatePosition"/>
+        <NamedIndividual IRI="#UpperLeft"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#VaseApproximatePosition"/>
+        <NamedIndividual IRI="#UpperMiddle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#VaseApproximatePosition"/>
+        <NamedIndividual IRI="#UpperRight"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#User"/>
+        <NamedIndividual IRI="#User1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#User"/>
+        <NamedIndividual IRI="#User2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vase"/>
+        <NamedIndividual IRI="#Vase1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vase"/>
+        <NamedIndividual IRI="#Vase2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vase"/>
+        <NamedIndividual IRI="#Vase3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vase"/>
+        <NamedIndividual IRI="#Vase4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vase"/>
+        <NamedIndividual IRI="#Vase5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#VaseColor"/>
+        <NamedIndividual IRI="#Yellow"/>
+    </ClassAssertion>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Image1"/>
+        <NamedIndividual IRI="#Image2"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#User1"/>
+        <NamedIndividual IRI="#User2"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Vase1"/>
+        <NamedIndividual IRI="#Vase2"/>
+        <NamedIndividual IRI="#Vase3"/>
+        <NamedIndividual IRI="#Vase4"/>
+        <NamedIndividual IRI="#Vase5"/>
+    </DifferentIndividuals>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasIllustrationOf"/>
+        <NamedIndividual IRI="#Image1"/>
+        <NamedIndividual IRI="#Vase1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasImageSize"/>
+        <NamedIndividual IRI="#Image1"/>
+        <NamedIndividual IRI="#Medium"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasImageSize"/>
+        <NamedIndividual IRI="#Image2"/>
+        <NamedIndividual IRI="#Small"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasApproximatePosition"/>
+        <NamedIndividual IRI="#Vase1"/>
+        <NamedIndividual IRI="#UpperLeft"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasApproximateSize"/>
+        <NamedIndividual IRI="#Vase1"/>
+        <NamedIndividual IRI="#Big"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasColor"/>
+        <NamedIndividual IRI="#Vase1"/>
+        <NamedIndividual IRI="#Blue"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMaterial"/>
+        <NamedIndividual IRI="#Vase1"/>
+        <NamedIndividual IRI="#Glass"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasOrigin"/>
+        <NamedIndividual IRI="#Vase1"/>
+        <NamedIndividual IRI="#China"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasApproximatePosition"/>
+        <NamedIndividual IRI="#Vase2"/>
+        <NamedIndividual IRI="#UpperMiddle"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasApproximateSize"/>
+        <NamedIndividual IRI="#Vase2"/>
+        <NamedIndividual IRI="#Small"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMaterial"/>
+        <NamedIndividual IRI="#Vase2"/>
+        <NamedIndividual IRI="#Glass"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasOrigin"/>
+        <NamedIndividual IRI="#Vase2"/>
+        <NamedIndividual IRI="#Japan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasApproximatePosition"/>
+        <NamedIndividual IRI="#Vase3"/>
+        <NamedIndividual IRI="#UpperRight"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasApproximateSize"/>
+        <NamedIndividual IRI="#Vase3"/>
+        <NamedIndividual IRI="#Big"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasColor"/>
+        <NamedIndividual IRI="#Vase3"/>
+        <NamedIndividual IRI="#Red"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMaterial"/>
+        <NamedIndividual IRI="#Vase3"/>
+        <NamedIndividual IRI="#Ceramic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasOrigin"/>
+        <NamedIndividual IRI="#Vase3"/>
+        <NamedIndividual IRI="#China"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasApproximatePosition"/>
+        <NamedIndividual IRI="#Vase4"/>
+        <NamedIndividual IRI="#BottomLeft"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasApproximateSize"/>
+        <NamedIndividual IRI="#Vase4"/>
+        <NamedIndividual IRI="#Medium"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasColor"/>
+        <NamedIndividual IRI="#Vase4"/>
+        <NamedIndividual IRI="#Blue"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasOrigin"/>
+        <NamedIndividual IRI="#Vase4"/>
+        <NamedIndividual IRI="#Bavaria"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasApproximatePosition"/>
+        <NamedIndividual IRI="#Vase5"/>
+        <NamedIndividual IRI="#BottomRight"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasApproximateSize"/>
+        <NamedIndividual IRI="#Vase5"/>
+        <NamedIndividual IRI="#Medium"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasColor"/>
+        <NamedIndividual IRI="#Vase5"/>
+        <NamedIndividual IRI="#Red"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMaterial"/>
+        <NamedIndividual IRI="#Vase5"/>
+        <NamedIndividual IRI="#Plastic"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasResourceName"/>
+        <NamedIndividual IRI="#Image1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ExampleResources/VaseSellingExample/Vase1.jpg</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isInvisible"/>
+        <NamedIndividual IRI="#Image1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasIllustrationOf"/>
+        <NamedIndividual IRI="#Image2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">colorfulVase</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasResourceName"/>
+        <NamedIndividual IRI="#Image2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ExampleResources/VaseSellingExample/ColorfulVase.jpg</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isInvisible"/>
+        <NamedIndividual IRI="#Image2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#Robot1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Nao</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasXPosition"/>
+        <NamedIndividual IRI="#Robot1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">0.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasYPosition"/>
+        <NamedIndividual IRI="#Robot1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">0.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasZPosition"/>
+        <NamedIndividual IRI="#Robot1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">0.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#User1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Tom</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPreferredModality"/>
+        <NamedIndividual IRI="#User1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">GAZE</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasXPosition"/>
+        <NamedIndividual IRI="#User1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">0.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasYPosition"/>
+        <NamedIndividual IRI="#User1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">1.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasZPosition"/>
+        <NamedIndividual IRI="#User1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">1.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#User2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Tina</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasXPosition"/>
+        <NamedIndividual IRI="#User2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">-0.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasYPosition"/>
+        <NamedIndividual IRI="#User2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">1.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasZPosition"/>
+        <NamedIndividual IRI="#User2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">1.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPrice"/>
+        <NamedIndividual IRI="#Vase1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">49.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasXPosition"/>
+        <NamedIndividual IRI="#Vase1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">1.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasYPosition"/>
+        <NamedIndividual IRI="#Vase1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">0.6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasZPosition"/>
+        <NamedIndividual IRI="#Vase1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">1.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPrice"/>
+        <NamedIndividual IRI="#Vase2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">22.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasXPosition"/>
+        <NamedIndividual IRI="#Vase2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">1.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasYPosition"/>
+        <NamedIndividual IRI="#Vase2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">0.3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasZPosition"/>
+        <NamedIndividual IRI="#Vase2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">1.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPrice"/>
+        <NamedIndividual IRI="#Vase3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">80.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasXPosition"/>
+        <NamedIndividual IRI="#Vase3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">1.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasYPosition"/>
+        <NamedIndividual IRI="#Vase3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">0.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasZPosition"/>
+        <NamedIndividual IRI="#Vase3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">1.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPrice"/>
+        <NamedIndividual IRI="#Vase4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">33.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasXPosition"/>
+        <NamedIndividual IRI="#Vase4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">1.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasYPosition"/>
+        <NamedIndividual IRI="#Vase4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">0.45</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasZPosition"/>
+        <NamedIndividual IRI="#Vase4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">1.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPrice"/>
+        <NamedIndividual IRI="#Vase5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">22.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasXPosition"/>
+        <NamedIndividual IRI="#Vase5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">1.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasYPosition"/>
+        <NamedIndividual IRI="#Vase5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">0.25</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasZPosition"/>
+        <NamedIndividual IRI="#Vase5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">1.0</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasApproximatePosition"/>
+        <ObjectProperty IRI="#hasVaseDescriptor"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasApproximateSize"/>
+        <ObjectProperty IRI="#hasVaseDescriptor"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasColor"/>
+        <ObjectProperty IRI="#hasVaseDescriptor"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasMaterial"/>
+        <ObjectProperty IRI="#hasVaseDescriptor"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasOrigin"/>
+        <ObjectProperty IRI="#hasVaseDescriptor"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasApproximatePosition"/>
+        <Class IRI="#Vase"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasApproximateSize"/>
+        <Class IRI="#Vase"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasColor"/>
+        <Class IRI="#Vase"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasIllustrationOf"/>
+        <Class IRI="#Image"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasImageSize"/>
+        <Class IRI="#Image"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMaterial"/>
+        <Class IRI="#Vase"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasOrigin"/>
+        <Class IRI="#Vase"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasVaseDescriptor"/>
+        <Class IRI="#Vase"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasApproximatePosition"/>
+        <Class IRI="#VaseApproximatePosition"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasApproximateSize"/>
+        <Class IRI="#VaseApproximateSize"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasColor"/>
+        <Class IRI="#VaseColor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasIllustrationOf"/>
+        <Class IRI="#Vase"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasImageSize"/>
+        <Class IRI="#ImageSize"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMaterial"/>
+        <Class IRI="#VaseMaterial"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasOrigin"/>
+        <Class IRI="#VaseOrigin"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasVaseDescriptor"/>
+        <Class IRI="#VaseDescriptor"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasXPosition"/>
+        <DataProperty IRI="#hasAbsolutePosition"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasYPosition"/>
+        <DataProperty IRI="#hasAbsolutePosition"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasZPosition"/>
+        <DataProperty IRI="#hasAbsolutePosition"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasIllustrationOf"/>
+        <Class IRI="#Image"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasName"/>
+        <Class IRI="#Robot"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasName"/>
+        <Class IRI="#User"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasPrice"/>
+        <Class IRI="#Vase"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasResourceName"/>
+        <Class IRI="#Image"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isInvisible"/>
+        <Class IRI="#Image"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasIllustrationOf"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasPrice"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasResourceName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasXPosition"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasYPosition"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasZPosition"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#isInvisible"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasPrice</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Visibility: 0.9, dependent_on: hasPriceTag</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasXPosition</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Visibility: 0.0</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasYPosition</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Visibility: 0.0</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasZPosition</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Visibility: 0.0</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
+

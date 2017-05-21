@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<solver>
+    <!--<environmentMode>FAST_ASSERT</environmentMode>-->
+
+    <!-- Domain model configuration <scanAnnotatedClasses/> -->
+    <scanAnnotatedClasses>
+        <packageInclude>de.dfki.mmf.planner.modalityplanner</packageInclude>
+    </scanAnnotatedClasses>
+
+
+    <!-- Score configuration -->
+    <scoreDirectorFactory>
+        <scoreDefinitionType>HARD_SOFT</scoreDefinitionType>
+        <easyScoreCalculatorClass>de.dfki.mmf.planner.modalityplanner.score.FusionScorer</easyScoreCalculatorClass>
+    </scoreDirectorFactory>
+
+    <!-- Optimization algorithms configuration -->
+    <!--  <termination>
+         <secondsSpentLimit>10</secondsSpentLimit>
+     </termination> -->
+     <constructionHeuristic>
+         <constructionHeuristicType>FIRST_FIT</constructionHeuristicType>
+     </constructionHeuristic>
+     <!-- Power tweaked optimization algorithms configuration -->
+    <!--<constructionHeuristic>-->
+    <!--<constructionHeuristicType>FIRST_FIT_DECREASING</constructionHeuristicType>-->
+    <!--</constructionHeuristic>-->
+    <!--<localSearch>-->
+    <!--<unionMoveSelector>-->
+    <!--<changeMoveSelector/>-->
+    <!--<swapMoveSelector/>-->
+    <!--<pillarChangeMoveSelector/>-->
+    <!--<pillarSwapMoveSelector/>-->
+    <!--</unionMoveSelector>-->
+    <!--<acceptor>-->
+    <!--<entityTabuSize>7</entityTabuSize>-->
+    <!--</acceptor>-->
+    <!--<forager>-->
+    <!--<acceptedCountLimit>1000</acceptedCountLimit>-->
+    <!--</forager>-->
+    <!--</localSearch>-->
+</solver>

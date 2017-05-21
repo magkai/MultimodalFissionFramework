@@ -1,0 +1,11 @@
+Example: "vecnu" = "to sell"
+Standard statement: "vecnu(robot1, vase3, user1, 80€)" := "Robot1 sells vase3 to user1 for 80€."
+Shorter statement: "vecnu(robot1, vase3, [zoe], [zoe])" := "Robot1 sells vase3."
+Negation: "[na] vecnu(robot1, vase3, user1, 80€)" := "Robot1 does not sell vase3 to user1 for 80€."
+Imperative: "[ko] vecnu([zoe], vase3, user1, 80€)" := "Sell vase3 to user1 for 80€!"
+Questions:
+Yes/No-Question: "[xu] vecnu(robot1, vase3, user1, 80€)" := "Does Robot1 sell vase3 to user1 for 80€?"
+Who-Subject-Question: "vecnu([ma], vase3, user1, 80€)" := "Who sells vase3 to user1 for 80€?"
+What-Object-Question: "vecnu(robot1, [ma], user1, 80€)" := "What does robot1 sell to user1 for 80€?"
+Who-Object-Question: "rinsa(I, [ma], quickly)" := "Who do I greet quickly?"
+How-Question: "rinsa(I, you, [ma])" := "How do I greet you?"
